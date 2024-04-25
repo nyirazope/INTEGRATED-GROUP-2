@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+    <style>
+        body{
+            display:flex ;
+            justify-content: center;
+            align-items:center ;
+            min-height: 100vh;
+        }
+        button{
+            width: 5cm;
+            height: 1cm;
+        }
+    </style>
+</head>
+<fieldset style="height: 400px; width: 400px; color: aqua; background-color: blueviolet;" >
+<body>
+    <h1>student log in form</h1>
+    <label for="">name of student</label> <br>
+    <input type="text"><br><br>
+    <label for="">age of student</label> <br>
+    <input type="number"><br><br>
+    <label for="">email</label> <br>
+    <input type="email"><br><br>
+    class <br>
+<select>
+    <option value="">L3</option>
+    <option value="">L4</option>
+    <option value="">L5</option>
+</select><br><br>
+    <button>submit</button>
+</body>
+</fieldset>
+</html>
