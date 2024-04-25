@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Entertainment Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .form-container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .form-group input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+        #output {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2><marquee behavior="better" direction="right">Entertainment Form</marquee></h2>
+        <div class="form-group">
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+<label>Enter your country:</label>
+<input type="text" id="name" placeholder="enter your country">
+        </div>
+        <div class="form-group">
+             <input type="text" id="name" placeholder="enter your Gender">
+                    </div>
+                    <div class="form-group">
+                        <label>Enter your year:</label>
+                         <input type="text" id="name" placeholder="enter your year">
+                                </div>
+        <div class="form-group">
+            <button onclick="generateMessage()">Generate Entertainment</button>
+        </div>
+        <div id="output"></div>
+    </div>
+
+</body>
+</html>
